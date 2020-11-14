@@ -1,3 +1,11 @@
+# frozen_string_literal: true
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1 do
+      post '/request', to: 'request#request_title'
+      get '/request', to: 'request#index'
+      get '/request/:id', to: 'request#show'
+      delete '/request/:id', to: 'request#destroy'
+    end
+  end
 end

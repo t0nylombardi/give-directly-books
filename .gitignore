@@ -27,6 +27,9 @@
 /storage/*
 !/storage/.keep
 .byebug_history
+.pryrc
+.ruby_version
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
