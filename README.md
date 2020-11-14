@@ -1,24 +1,19 @@
-# README
+# GiveDirectly Request Books Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### requirements:
 
-Things you may want to cover:
+- ruby 2.7.1
+- Rails 6.0.3
 
-* Ruby version
+#### instalation:
 
-* System dependencies
+- clone repo
+- run command `bundle install`
+- run command `rails s`
 
-* Configuration
+#### routes:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+POST /api/v1/request
+GET /api/v1/request  
+GET /api/v1/request/:id
+DELETE /api/v1/request/:id
